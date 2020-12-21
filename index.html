@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="">
+		<title>首页</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+		<style>
+			body {
+				padding-top: 5rem; /*距离浏览器顶部5相对像素*/
+			}
+			.a{
+				height: 100%;  /*高度设为100%*/
+			}
+		</style>
+	</head>
+
+	<body>
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+			<a class="navbar-brand title" href="#">数据信息学院（计应1901）</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarsExampleDefault">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="school.html" target="container">网站首页</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="classes.html" target="container">班级概况</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="learn.html" target="container">荣誉展示</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="extracurricular.html" target="container">课外视野</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="dynamic.html" target="container">学习天地</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<main class="container-fluid a">
+			<div class="embed-responsive embed-responsive-4by3 a">
+				<iframe class="embed-responsive-item a" src="school.html" name="container"></iframe>
+			</div>
+		</main>
+
+		<!-- 页脚 -->
+		<footer>
+			<div class="container-fluid text-left">
+				<hr/>
+				<span class="text-muted">版权所有 © 李俊涛、罗新、赵福令</span>
+			</div>
+		</footer>
+
+		<script src="js/jquery-1.12.4.js" ></script>
+		<script src="js/bootstrap.js"></script>
+		<script>
+			$('.carousel').carousel({
+				interval: 5000
+			})
+		</script>
+	</body>
+
+</html>
